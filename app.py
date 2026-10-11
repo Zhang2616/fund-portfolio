@@ -394,7 +394,7 @@ if run_btn:
             xaxis_tickformat='.1%',
             yaxis_tickformat='.1%',
             height=500,
-            legend=dict(yanchor="top", x=0.01, y=0.99)
+            legend=dict(yanchor="top", yanchor="top", x=0.01, y=0.99)
         )
         st.plotly_chart(fig, use_container_width=True)
     
